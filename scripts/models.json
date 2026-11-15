@@ -1,0 +1,81 @@
+{
+  "patterns": {
+    "image": [
+      "*image*",
+      "*banana*",
+      "dall-e-*",
+      "dall-e*",
+      "flux*",
+      "seedream*",
+      "imagen-*",
+      "kling-image*"
+    ],
+    "video": [
+      "*video*",
+      "seedance*",
+      "sd-*",
+      "hailuo*",
+      "minimax-h3*",
+      "veo-*",
+      "veo3*",
+      "kling-v*",
+      "sora-*",
+      "vidu*",
+      "wan2*",
+      "wanx2*",
+      "jimeng*",
+      "hunyuan-video*",
+      "cogvideo*",
+      "happyhorse*",
+      "gemini-omni*",
+      "t2v-*",
+      "i2v-*",
+      "s2v-*"
+    ],
+    "music": [
+      "suno*",
+      "lyria*",
+      "*music*"
+    ],
+    "tts": [
+      "*tts*",
+      "speech-*",
+      "elevenlabs/*",
+      "*-voice*",
+      "kling-custom-voices",
+      "grok-voice*"
+    ],
+    "decision": [
+      "jev*",
+      "systemone*"
+    ]
+  },
+  "aliases": {
+    "gpt-image": ["gpt-image-*"],
+    "gpt-image-2": ["gpt-image-2*"],
+    "dall-e": ["dall-e-*"],
+    "flux": ["flux*"],
+    "seedream": ["seedream*"],
+    "imagen": ["imagen-*"],
+    "nano-banana": ["gemini-*-image*"],
+    "nano-banana-pro": ["gemini-3-pro-image*"],
+    "nano-banana-2": ["gemini-3.1-flash-image*"],
+    "muse-image": ["muse-image*"],
+    "muse-video": ["muse-video*"],
+    "seedance": ["*seedance*", "sd-*"],
+    "minimax": ["minimax-h3*", "hailuo*"],
+    "veo": ["veo-*", "veo3*"],
+    "kling": ["kling-v*"],
+    "sora": ["sora-*"],
+    "vidu": ["vidu*"],
+    "wan": ["wan2*", "wanx2*"],
+    "jimeng": ["jimeng*"],
+    "suno": ["suno*"],
+    "elevenlabs": ["elevenlabs/*"],
+    "minimax-tts": ["speech-*"],
+    "gemini-tts": ["google/gemini-*tts*", "gemini-*tts*"],
+    "gpt-tts": ["gpt-*tts*"],
+    "jev": ["jev-*"],
+    "voice-clone": ["kling-custom-voices"]
+  }
+}
