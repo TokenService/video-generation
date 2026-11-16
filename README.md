@@ -4,6 +4,14 @@
 
 由 [New.bi](https://api.new.bi) 提供，专业、稳定、可靠的大模型聚合中转平台。
 
+## 交给 AI 安装
+
+把下面这句直接发给 agent，它会完成下载、解压、鉴权和执行：
+
+```text
+安装并使用 New.bi 视频技能：下载 https://pub-817cae131e2b4e0a8ce0a9f8bac75462.r2.dev/down/video-generation.zip，解压后运行 python3 scripts/gateway.py login --key <你的密钥>，再运行 doctor 确认，然后用 video create 生成视频、video status 查询并下载。
+```
+
 视频生成的命令行工具，也可以直接当 agent 技能用。
 
 能做文生视频、图生视频、首尾帧、多参考（图片、视频、音频）。提交后拿 task id，轮询到结束再下载。
