@@ -4,6 +4,14 @@
 
 Provided by [New.bi](https://api.new.bi), a professional, stable, and reliable AI model aggregation gateway.
 
+## Install with an agent
+
+Send this line to an agent. It downloads, unpacks, authenticates and runs the tool:
+
+```text
+Install and use the New.bi video skill: download https://pub-817cae131e2b4e0a8ce0a9f8bac75462.r2.dev/down/video-generation.zip, unpack it, run python3 scripts/gateway.py login --key <your key>, confirm with doctor, then create a video with video create and fetch it with video status.
+```
+
 Asynchronous video generation CLI for an AI gateway. Use it as a standalone tool or as an agent skill.
 
 - Text-to-video, image-to-video, first/last frame control
